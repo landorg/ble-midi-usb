@@ -1,5 +1,7 @@
 # BLE MIDI Adapter
 
+100% ai slop Bluetooth LE midi to usb midi adapter for ESP32. Use at your own risk
+
 ESP32-S3 firmware that connects to a BLE MIDI device as the central and passes
 its MIDI to any USB host as a class-compliant USB MIDI device. No PC or drivers
 needed once it's flashed.
