@@ -29,7 +29,7 @@ enum Page { PageMonitor, PageDevices };
 
 static QueueHandle_t midiQueue;
 static Page page = PageMonitor;
-static bool screenOn = true;
+static bool screenOn = false;
 static bool redrawAll = true;
 static uint8_t brightness;
 
@@ -247,6 +247,7 @@ void uiBegin() {
     d.fillScreen(kBackground);
     brightness = d.getBrightness();
     if (!brightness) brightness = 100;
+    setScreen(false);
 }
 
 void uiLoop() {

@@ -20,7 +20,8 @@ BLE MIDI device ──BLE──▶ ESP32-S3 (NimBLE central) ──USB MIDI devi
 
 ## M5Stack CoreS3 screen
 
-- **Power button:** a short press turns the screen on or off. MIDI keeps running.
+- **Power button:** the screen starts off, and a short press turns it on or off.
+  MIDI keeps running either way.
 - **Swipe left or right:** switch between the two pages.
 - **MIDI page:** the latest messages, newest at the bottom.
 - **Devices page:** BLE MIDI devices in range. Tap one to connect to it and make
